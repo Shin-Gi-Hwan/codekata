@@ -8,11 +8,8 @@ public class Main {
         int b = sc.nextInt();
         int result = 0;
 
-        for (int i = 0; i < b; i++) {
-            result = b - i;
-            if (result >= a) {
-                System.out.print(result + " ");
-            }
+        for (int i = b; i >= a; i--) {
+            System.out.print(i + " ");
         }
     }
 }
