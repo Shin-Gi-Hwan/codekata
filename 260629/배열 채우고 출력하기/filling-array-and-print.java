@@ -10,7 +10,7 @@ public class Main {
             arry[i] = sc.next();
         }
 
-        for (int j = 9; j >= 0; j--) {
+        for (int j = arry.length - 1; j >= 0; j--) {
             System.out.print(arry[j]);
         }
     }
